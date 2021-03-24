@@ -1,0 +1,48 @@
+.main-end h2 {
+    width: 288px;
+    height: 84px;
+    margin: 48px 16px 24px 16px;
+}
+
+.icons {
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+   background: none;
+  
+   margin-top: 37px;
+
+}
+
+.icons p {
+    font-family: $font-family-h;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 65px;
+}
+
+.icons img  {
+    width: 104px;
+    height: 104px;
+}
+
+@media only screen and (min-width: 768px) {
+    .icons {
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: row;
+      
+    }
+
+    .icons img {
+        margin-top: 69px;
+        
+    }
+
+    .icons p {
+        margin-bottom: 34px;
+    }
+
+    
+}

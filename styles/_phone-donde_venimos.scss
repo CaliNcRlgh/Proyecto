@@ -1,0 +1,44 @@
+.phone-text {
+   margin: 0 16px;
+
+}
+
+.donde-venimos {
+    width: 288px;
+    height: 254px;
+    margin-top: 1px;
+    font-size: $font-size-p;
+    font-family: $font-family-p;
+    color: $font-color-p;
+}
+
+.telefono {
+    height: 519px;
+    width: 360px;
+    transform: translateY(-100px);
+}
+
+@media only screen and (min-width: 768px) {
+    .middle-main {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .phone-container {
+        height: 457px;
+        width: 660px;
+    }
+
+    .phone-text h2 {
+        width: 399px;
+        height: 62px;
+
+    }
+
+    .donde-venimos {
+        width: 464px;
+        height: 204px;
+    }
+
+
+}

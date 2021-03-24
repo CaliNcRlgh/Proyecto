@@ -1,0 +1,28 @@
+.imagenes h1 {
+    margin: 0 16px;
+}
+
+.imagenes-grid {
+    line-height: 0;
+}
+
+.imagenes-grid img {
+    height: 243px;
+    width: 100%;
+    line-height: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .imagenes-grid {
+        display: grid;
+        grid-template-columns: 480px 480px 480px;
+        grid-template-rows: 364px 364px;
+    
+    }
+
+    .imagenes-grid img {
+        width: 480px;
+        height: 364px;
+    }
+}
+    
